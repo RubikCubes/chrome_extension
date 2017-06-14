@@ -1,5 +1,5 @@
 Chrome Extension
-===================
+
 
 Downloading the Chrome Extension from GitHub
 -------------
