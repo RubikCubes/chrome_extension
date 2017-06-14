@@ -2,12 +2,8 @@ Chrome Extension
 ===================
 
 
-
-----------
-
-
 Downloading the Chrome Extension from GitHub
--------------
+
 #### <i class="icon-folder-open"></i> Download Repo
 
 >- Click on the "Clone or Download" button
