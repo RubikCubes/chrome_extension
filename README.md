@@ -19,7 +19,7 @@ You are all now set up to make edits!
 
 #### Part 3: Add extension to Chrome
 
-+Open up the extensions page in Chrome: `chrome://extensions`
++ Open up the extensions page in Chrome: `chrome://extensions`
 + Check the box `Developer mode`. This will allow you to upload your own files
 + Click `Load unpacked extension` which will give you the ability to now upload the Chrome Extension repo. 
 
