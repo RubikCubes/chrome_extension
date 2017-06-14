@@ -2,16 +2,13 @@ Chrome Extension
 ================
 
 
-Downloading the Chrome Extension from GitHub
--------------
-
-#### Download Repo
+#### Part 1: Downloading the Chrome Extension from GitHub
 
 >- Click on the "Clone or Download" button
 
 This will download all of the files necessary to create a Chrome Extension. You will need to downloaded a text editor to make any changes to the file
 
-#### Download a Text Editor
+#### Part 2: Download a Text Editor to make changes to the extension
 
 To download Sublime Text Editor, goto: 
 >- https://www.sublimetext.com
@@ -28,7 +25,7 @@ Set the syntax to read Javascript
 
 You are all now set up to make edits!
 
-####  Add Extension to Chrome
+#### Part 3: Add extension to Chrome
 
 Open up the extensions page in Chrome:
 >- Put `chrome://extensions` into the URL bar
