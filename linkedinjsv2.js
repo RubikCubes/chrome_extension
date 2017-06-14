@@ -1,7 +1,8 @@
 var listener = new window.keypress.Listener();
 
 
-project = 'Security_Morgan'
+// Add project name in between the ' '
+project = ''
 
 listener.sequence_combo("1 a", function() {
     $('.tool-projects').click();
