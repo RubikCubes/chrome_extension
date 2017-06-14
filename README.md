@@ -4,9 +4,9 @@ Chrome Extension
 
 #### Part 1: Downloading the Chrome Extension from GitHub
 
->- Click on the "Clone or Download" button
+..* Click on the "Clone or Download" button
 
-: This will download all of the files necessary to create a Chrome Extension. You will need to downloaded a text editor to make any changes to the file
+..* This will download all of the files necessary to create a Chrome Extension. You will need to downloaded a text editor to make any changes to the file
 
 #### Part 2: Download a Text Editor to make changes to the extension
 
