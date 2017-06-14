@@ -9,13 +9,9 @@ Chrome Extension
 
 #### Part 2: Download a Text Editor to make changes to the extension
 
-+ To download Sublime Text Editor, goto: 
-...>- https://www.sublimetext.com
-
-Download Sublime, install it into your applications folder
-
-Open Sublime and show the side bar
->- View -> Sidebar -> Show Side Bar
++ Download Sublime Text Editor @ https://www.sublimetext.com
++ Install it into your applications folder
++ Open Sublime and show the side bar: `View -> Sidebar -> Show Side Bar`
 
 Then drag the repo folder into the side bar to display all of the files in the folder
 
