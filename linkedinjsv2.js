@@ -1,7 +1,7 @@
 //Write Code Below
 
 
-
+//Remove the // to un-comment out the line. Or feel free and to copy/paste the lines below to just under //Write Code Below 
 
 ///****EXAMPLE****
 
@@ -10,23 +10,33 @@
 
 
 // // Add project name in between the ' '
-// project = 'Security_Morgan'
+// project = 'ADD_PROJECT_NAME'
+
+// **side note** project name must be EXACT! 
 
 // listener.sequence_combo("1 a", function() {
+       // Clicks the project page
 //     $('.tool-projects').click();
+       //Adds project
 //     $('.suggestion-value:contains('+project+')').click();
+       // Set status. You will need to find the value of the status ID for this to work
 //     $('select[name="statusId"] option[value="34207826"]').prop('selected',true).click()
+       //Clicks the "add" button
 //     $('.add-to-project .actions .btn-primary').click()
+       //Clicks the send inmail button
 //     $('.send-inmail').click();
+       //Finds the first name on the page
 //     first_name = $('#topcard h1').text().split(' ')[0];
 //     setTimeout(function(){
-//         $('.compose-subject').val(first_name+", help us bring transparency to the financial industry!");
+           // Sets the subject line
+//         $('.compose-subject').val(first_name+", SUBJECT LINE GOES HERE");
+            // Sets the message 
 //         $('.compose-txtarea').val("\
 // Hey "+first_name+",\n\
 // \n\
 // Add some text to a message here\n \
 // \n\
-// To create new lines \n \
+// This will be on a new line \n \
 // \n\
 // Can create bullet points:\n \
 // \n \
