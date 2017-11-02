@@ -16,26 +16,26 @@ alert('this chrome extension loaded')
 // **side note** project name must be EXACT! 
 
 // listener.sequence_combo("1 a", function() {
-       // Clicks the project page
+
 //     $('.tool-projects').click();
 
-       //Adds project
+
 //     $('.suggestion-value:contains('+project+')').click();
 
-       //Clicks the "add" button
+
 //     $('.add-to-project .actions .btn-primary').click()
 
-       //Clicks the send inmail button
+
 //     $('.send-inmail').click();
 
-       //Finds the first name on the page
+
 //     first_name = $('#topcard h1').text().split(' ')[0];
 
 //     setTimeout(function(){
-           // Sets the subject line
+
 //         $('.compose-subject').val(first_name+", SUBJECT LINE GOES HERE");
 
-            // Sets the message 
+
 //         $('.compose-txtarea').val("\
 // Hey "+first_name+",\n\
 // \n\
