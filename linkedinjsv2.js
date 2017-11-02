@@ -7,71 +7,37 @@ alert('this chrome extension loaded')
 ///****EXAMPLE****
 
 
-// var listener = new window.keypress.Listener();
+var listener = new window.keypress.Listener();
 
 
 // // Add project name in between the ' '
-// project = 'ADD_PROJECT_NAME'
+project = 'test_project'
 
 // **side note** project name must be EXACT! 
 
-// listener.sequence_combo("1 a", function() {
+listener.sequence_combo("1 a", function() {
+    $('.tool-projects').click();
+    $('.suggestion-value:contains('+project+')').click();
+    $('.btn-primary')[0].click()
 
-//     $('.tool-projects').click();
-
-
-//     $('.suggestion-value:contains('+project+')').click();
-
-
-//     $('.add-to-project .actions .btn-primary').click()
-
-
-//     $('.send-inmail').click();
-
-
-//     first_name = $('#topcard h1').text().split(' ')[0];
-
-//     setTimeout(function(){
-
-//         $('.compose-subject').val(first_name+", SUBJECT LINE GOES HERE");
-
-
-//         $('.compose-txtarea').val("\
-// Hey "+first_name+",\n\
-// \n\
-// Add some text to a message here\n \
-// \n\
-// This will be on a new line \n \
-// \n\
-// Can create bullet points:\n \
-// \n \
-//     -Like this if you want!\n \
-//     \n\
-//     -Second bullet point\n \
-//     \n\
-//     -Third bullet point\n \
-// \n\
-// ...and so much more!\n \
-// \n\
-// Add some more text! Thanks "+first_name+". \n \
-// \n\
-// Best,\n \
-// SOME NAME"
-//         )
-
-//     }, 2000)
-
-
-
-
-//next profile
-listener.sequence_combo("shift n p", function(){
-    $('a[title="Next Page"]')[0].click();
-}, true);
-
-
-
-
-
-
-
+    first_name = $('#topcard h1').text().split(' ')[0];
+    
+    $('.send-inmail').click();
+    setTimeout(function(){
+        $('.compose-subject').val(first_name+", help us bring transparency to the financial industry!");
+        $('.compose-txtarea').val("\
+Hey "+first_name+",\n\
+\n\
+This is some text\n\
+\n\
+with line breaks\n\
+\n\
+Replace this with your message.\n\
+\n\
+You can even use "+first_name+" again.\n\
+\n\
+Best,\n\
+Your Name Here"
+        )
+    }, 2000)
+}, true)
