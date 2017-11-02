@@ -1,4 +1,5 @@
 //Write Code Below
+alert('this chrome extension loaded')
 
 
 //Remove the // to un-comment out the line. Or feel free and to copy/paste the lines below to just under //Write Code Below 
@@ -17,19 +18,23 @@
 // listener.sequence_combo("1 a", function() {
        // Clicks the project page
 //     $('.tool-projects').click();
+
        //Adds project
 //     $('.suggestion-value:contains('+project+')').click();
-       // Set status. You will need to find the value of the status ID for this to work
-//     $('select[name="statusId"] option[value="34207826"]').prop('selected',true).click()
+
        //Clicks the "add" button
 //     $('.add-to-project .actions .btn-primary').click()
+
        //Clicks the send inmail button
 //     $('.send-inmail').click();
+
        //Finds the first name on the page
 //     first_name = $('#topcard h1').text().split(' ')[0];
+
 //     setTimeout(function(){
            // Sets the subject line
 //         $('.compose-subject').val(first_name+", SUBJECT LINE GOES HERE");
+
             // Sets the message 
 //         $('.compose-txtarea').val("\
 // Hey "+first_name+",\n\
