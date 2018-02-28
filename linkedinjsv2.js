@@ -1,6 +1,8 @@
 //Write Code Below
 alert('this chrome extension loaded')
 
+//Code written by Morgan Allen
+//morganvallen@gmail.com
 
 //Remove the // to un-comment out the line. Or feel free and to copy/paste the lines below to just under //Write Code Below 
 
