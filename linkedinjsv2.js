@@ -1,8 +1,9 @@
 //Write Code Below
-alert('this chrome extension loaded')
+alert('Created by Morgan Allen - https://www.linkedin.com/in/morganallen/')
 
 //Code written by Morgan Allen
 //morganvallen@gmail.com
+//https://www.linkedin.com/in/morganallen/
 
 //Remove the // to un-comment out the line. Or feel free and to copy/paste the lines below to just under //Write Code Below 
 
@@ -26,7 +27,7 @@ listener.sequence_combo("1 a", function() {
     
     $('.send-inmail').click();
     setTimeout(function(){
-        $('.compose-subject').val(first_name+", help us bring transparency to the financial industry!");
+        $('.compose-subject').val(first_name+" this is a subject");
         $('.compose-txtarea').val("\
 Hey "+first_name+",\n\
 \n\
