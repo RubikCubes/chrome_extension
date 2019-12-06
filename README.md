@@ -15,6 +15,9 @@ URL - https://sourcecon-austin-180718.appspot.com
 + Open Sublime and show the side bar: `View -> Sidebar -> Show Side Bar`
 + Then drag the repo folder into the side bar to display all of the files in the folder
 + Set the syntax to read Javascript: `View -> Syntax -> Javascript`
++ Select the file called linkedinjsv2.js
++ You will see a sample pitch inside it. You can edit it to your liking
++ If you get stuck, message me at morganvallen@gmail.com and I can help
 
 You are all now set up to make edits!
 
