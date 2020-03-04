@@ -1,6 +1,6 @@
 
 var listener = new window.keypress.Listener();
-
+var project_name = 'ENTER PROJECT ID'
 var my_scope = this;
 var my_combos = listener.register_many([
     {
@@ -10,7 +10,7 @@ var my_combos = listener.register_many([
 
          
             document.getElementsByClassName('tool-projects')[0].click()
-            document.querySelector('button[data-item-id="1106937686"]').click()
+            document.querySelector('button[data-item-id='+project_name+']').click()
             document.getElementsByClassName('save-to-project')[0].click()
             // console.log("And now you've released one of the keys.");
             var full_name_split = $('#topcard h1').first().text().split(' ');
