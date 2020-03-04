@@ -1,15 +1,6 @@
 
 var listener = new window.keypress.Listener();
 
-function paste() {
-  var pasteText = document.querySelector(".email-address");
-  pasteText.focus();
-  document.execCommand("paste");
-  console.log(pasteText.textContent);
-}
-
-console.log('this ran')
-
 var my_scope = this;
 var my_combos = listener.register_many([
     {
