@@ -1,46 +1,65 @@
-//Write Code Below
-alert('Created by Morgan Allen - https://www.linkedin.com/in/morganallen/')
-
-//Code written by Morgan Allen
-//morganvallen@gmail.com
-//https://www.linkedin.com/in/morganallen/
-
-//Remove the // to un-comment out the line. Or feel free and to copy/paste the lines below to just under //Write Code Below 
-
-///****EXAMPLE****
-
 
 var listener = new window.keypress.Listener();
 
+function paste() {
+  var pasteText = document.querySelector(".email-address");
+  pasteText.focus();
+  document.execCommand("paste");
+  console.log(pasteText.textContent);
+}
 
-// // Add project name in between the ' '
-project = 'test_project'
+console.log('this ran')
 
-// **side note** project name must be EXACT! 
+var my_scope = this;
+var my_combos = listener.register_many([
+    {
+        "keys"          : "up",
+        "is_exclusive"  : true,
+        "on_keyup"      : function(e) {
 
-listener.sequence_combo("1 a", function() {
-    $('.tool-projects').click();
-    $('.suggestion-value:contains('+project+')').click();
-    $('.btn-primary')[0].click()
+         
+            document.getElementsByClassName('tool-projects')[0].click()
+            document.querySelector('button[data-item-id="1106937686"]').click()
+            document.getElementsByClassName('save-to-project')[0].click()
+            // console.log("And now you've released one of the keys.");
+            var full_name_split = $('#topcard h1').first().text().split(' ');
+            var first_name = full_name_split[0]
+            var last_name = full_name_split[full_name_split.length - 1]
+            var company = $('h5 a').first().text();
+            var title = $('#profile-experience h4 a').first().text();
+            var linkedinUrl = $(location).attr('href').split('?')[0];
+            var publicLI = $("#topcard > div.module-footer > ul > li.public-profile.searchable > a").attr('href');
+            var candidateLocation = $('.location-industry .location').text();
+            
+            var data = first_name+"|"+last_name+"|"+company+"|"+title+"|"+candidateLocation+"|"+linkedinUrl+"|"+publicLI
+            window.prompt("data", data)            
 
-    first_name = $('#topcard h1').text().split(' ')[0];
+            $('.next .page-link')[0].click()
+        },
+        "this"          : my_scope
+    },
+    {
+        "keys"          : "right",
+        "is_exclusive"  : true,
+        "on_keyup"      : function(e) {
+            $('.next .page-link')[0].click()
+        },
     
-    $('.send-inmail').click();
-    setTimeout(function(){
-        $('.compose-subject').val(first_name+" this is a subject");
-        $('.compose-txtarea').val("\
-Hey "+first_name+",\n\
-\n\
-This is some text\n\
-\n\
-with line breaks\n\
-\n\
-Replace this with your message.\n\
-\n\
-You can even use "+first_name+" again.\n\
-\n\
-Best,\n\
-Your Name Here"
-        )
-    }, 2000)
-}, true)
+        "this"          : my_scope
+    },
+    {
+        "keys"          : "left",
+        "is_exclusive"  : true,
+        "on_keyup"      : function(e) {
+
+            $('.status-container button:contains("Archived")').click()
+            $('.next .page-link')[0].click()
+        },
+    
+        "this"          : my_scope
+    },
+
+]);
+
+
+
