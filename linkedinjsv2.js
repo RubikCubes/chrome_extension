@@ -29,7 +29,7 @@ var my_combos = listener.register_many([
 //         },
 //         "this"          : my_scope
 //     },
-{
+       {
         "keys"          : "right",
         "is_exclusive"  : true,
         "on_keyup"      : function(e) {
