@@ -23,8 +23,10 @@ var my_combos = listener.register_many([
 
             
             // $('button[data-lira-status-id="24246793"]').click()
-            $('.status-container button:contains("Archived")').click()
-            $('.next .page-link')[0].click()
+            // $('.status-container button:contains("Archived")').click()
+            $('.move-to-pipeline__dropdown-trigger')[6].click()
+            setTimeout(function() {$('.artdeco-dropdown__item')[3].click()}, 300)
+            // $('.next .page-link')[0].click()
         },
     
         "this"          : my_scope
