@@ -15,7 +15,7 @@ var my_combos = listener.register_many([
         "this"          : my_scope
     },
     {
-        "keys"          : "end",
+        "keys"          : "shift down",
         "is_exclusive"  : true,
         "on_keyup"      : function(e) {
 
@@ -55,22 +55,6 @@ var my_combos = listener.register_many([
         },
     
         "this"          : my_scope
-    },
-    {
-        "keys"          : "z",
-        "is_exclusive"  : true,
-        "on_keyup"      : function(e) {
-            console.log('this ran')
-            $('.profile-list__select-all input[type="checkbox"]').click()
-            setTimeout(function(){
-                $('button[data-test-action="add-note"]').click()
-            }, 400)
-
-
-        },
-    
-        "this"          : my_scope
-    },
-
+    }
 ]);
 
